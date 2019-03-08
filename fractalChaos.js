@@ -1,4 +1,4 @@
-var rule1 = true;
+var rule1 = false;
 
 var pointX = 0;
 var pointY = 0;
@@ -62,7 +62,7 @@ function draw() {
   translate(width/2, height/2);
   scale(1, -1);
   
-  for (var i = 0; i < 1000; i++) {
+  for (var i = 0; i < 100; i++) {
     point(pointX, pointY);
     
     if (rule1) {
