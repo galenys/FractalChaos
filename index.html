@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Fractal Chaos</title>
+    
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.sound.js" type="text/javascript"></script> -->
+    
+    <script src="p5.js" type="text/javascript"></script>
+
+    <script src="fractalChaos.js" type="text/javascript"></script>
+    
+    <style media="screen">
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      canvas {
+        cursor: none;
+      }
+      #inputP {
+        position: fixed;
+        bottom: 30px;
+        left: 30px;
+        color: white;
+        font-size: 15px;
+      }
+    </style>
+    
+  </head>
+  <body>
+    <div id="inputP">
+    <p>n: <input id="sides">
+             <button onclick="updateN()">Enter</button></p>
+    <p>rule1: <button onclick="toggleRule1()">Toggle</button></p>
+    </div>
+  </body>
+</html>
